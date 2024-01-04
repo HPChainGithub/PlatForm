@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="icon" href="./dbchain.ico" />
+  <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1164223_nvtaqkvxm3.css" />
+  <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css" />
+  <meta name="google-site-verification" content="dVr8DAW36763NzD1gKXPfz08r-fkWsEr3Z3ZWLy_9CU" />
+  <meta name ="keywords" content="Cloud, Chain, DeepBrain Chain, DBChian, congtu, GPU, CPU, AI">
+  <meta name="description" content="致力于为用户提供高性价比的GPU算力服务，采用DBC TOKEN进行结算。深脑链是一个无限扩容的高性能算力网络，通过我们您可以方便地使用深脑链中的GPU服务器，我们提供丰富的服务满足您的需求。">
+  <title>DBChian</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    // 聪图云模式开关
+    var websiteNameIsCongtuCloud = false;
+    if (websiteNameIsCongtuCloud) {
+      // borwserRedirect
+      (function browserRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        console.log("sUserAgent--");
+        console.log(sUserAgent);
+        var bIsIpad = sUserAgent.match(/ipad/i) == 'ipad';
+        var bIsIphone = sUserAgent.match(/iphone os/i) == 'iphone os';
+        var bIsMidp = sUserAgent.match(/midp/i) == 'midp';
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == 'rv:1.2.3.4';
+        var bIsUc = sUserAgent.match(/ucweb/i) == 'web';
+        var bIsCE = sUserAgent.match(/windows ce/i) == 'windows ce';
+        var bIsWM = sUserAgent.match(/windows mobile/i) == 'windows mobile';
+        var bIsAndroid = sUserAgent.match(/android/i) == 'android';
+        var HuaWeiwow64 = sUserAgent.match(/wow64/i) == 'wow64';
+        var windowswechat = sUserAgent.match(/windowswechat/i) == 'windowswechat';
+        if (bIsIpad || bIsIphone || bIsMidp || bIsUc7 || bIsUc || bIsCE || bIsWM || bIsAndroid) {
+          // 手机端
+          window.location.href = 'http://m.congtu.cloud/';
+        }
+        if (windowswechat) {
+          // 如果是微信，转到提示页面
+          window.location.href = 'http://m.congtu.cloud/windows_wechat_tip';
+        }
+      })();
+    }
+
+  </script>
+  <noscript>
+    <strong>We're sorry but dbchain doesn't work properly without JavaScript
+      enabled. Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
